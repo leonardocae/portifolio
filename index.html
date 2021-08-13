@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body class="bg-light">
+  
+<!-- ############# INÍCIO DO NAVBAR ############# -->
+  <nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+    <div class="container-lg">
+      <a class="navbar-brand gradient-text fs-4 fw-bold" href="#">DEV CAETANO</a>
+      <div class="dropdown">
+        <button class="btn btn-primary " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#sobre-mim">Sobre mim</a></li>
+          <li><a class="dropdown-item" href="#servicos">Serviços</a></li>
+          <li><a class="dropdown-item" href="#portifolio">Portifólio</a></li>
+          <li><a class="dropdown-item" href="#indicacoes">Indicações</a></li>
+          <li><a class="dropdown-item" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- ############# FIM DO NAVBAR ############# -->
+
+<!-- ############# INÍCIO DO HOME ############# -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="img/leo.png" class="rounded-circle mw-100"alt="imagem perfil">
+          </div>        
+        </div>
+        <div class="col-md-6 order-md-first mt-5 mt-md-0">
+          <div class="home-text text-light ">
+            <p class="mb-1">Olá, eu sou</p>
+            <h1 class="text-uppercase fs-1 fw-bold">Dev front-end</h1>
+            <h2 class="fs-4">Leonardo Caetano</h2>
+            <p class="mt-4">Sou desenvolvedor Web Jr, construindo a Web com conceito, navegação, layout e programação até UX.<br> 
+                            Habilidade em escrever códigos limpos e projetados, utilizando as melhores práticas atuais em desenvolvimento Web.
+                            Aprendendo rápido, trabalhando e sempre contribuindo para o trabalho em equipe.
+            </p>
+            <a href="#portifolio" class="btn btn-primary px-3 mt-3">Meus Trampos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ############# FIM DO HOME ############# -->
+
+<!-- ############# INÍCIO DO SOBRE MIM ############# -->
+  <section class="sobre-mim py-5 bg-white" id="sobre-mim">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Sobre mim</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="sobre_mim-text">
+            <h2 class="fs-4 mb-3">Iniciei a jornada com Html, Css, Bootstrap e Javascript</h2>
+            <p class="text-muted">Partindo do básico html e css aprendi que a toda estruturação e maquiagem acontecem neles.
+              Após entender e dominar, parti para a Framework Bootstrap e esta interface foi codada na mesma. 
+              Agora estou estudando Javascript, o mais interessante, onde tudo começa a funcionar.                            
+              </p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fatos">
+                <h4 class="fs-1 fw-bold">02</h4>
+                <p class="text-muted">Projetos Feitos</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fatos">
+                <h4 class="fs-1 fw-bold">100%</h4>
+                <p class="text-muted">Autodidata</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fatos">
+                <h4 class="fs-1 fw-bold text-uppercase">muito</h4>
+                <p class="text-muted">Aprendizado</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn btn-primary me-5 px-4" >Download CV</a>
+              <div class="social-links">
+                <a href="#" class="text-dark me-3"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" class="text-dark me-3"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="#" class="text-dark me-3"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row text-center mt-sm-3 mt-md-0 mt-lg-0 ">
+            <div class="skills-icons col-sm-4 py-2">
+              <i class="fab fa-html5 fa-7x"></i>
+              <h3 class="fs-5 fw-bold">HTML</h3>
+            </div>
+            <div class="skills-icons col-sm-4 py-2">
+              <i class="fab fa-css3-alt fa-7x"></i>
+              <h3 class="fs-5 fw-bold">CSS</h3>
+            </div>
+            <div class="skills-icons col-sm-4 py-2">
+              <i class="fab fa-js fa-7x"></i>
+              <h3 class="fs-5 fw-bold">Javascript</h3>
+            </div>
+            <div class="skills-icons col-sm-4 py-2">
+              <i class="fab fa-bootstrap fa-7x"></i>
+              <h3 class="fs-5 fw-bold">Bootstrap 5</h3>
+            </div>
+            <!-- <div class="skills-icons col-sm-4 py-2 spinner1">
+              <i class="fas fa-spinner fa-7x"></i>
+              <h3 class="fs-5 fw-bold">Loading</h3>
+            </div>
+            <div class="skills-icons col-sm-4 py-2 spinner2">
+              <i class="fas fa-spinner fa-7x"></i>
+              <h3 class="fs-5 fw-bold">Loading</h3>
+            </div> -->
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  </section>
+<!-- ############# FIM DO SOBRE MIM ############# -->
+
+<!-- ############# INÍCIO DE SERVIÇOS ############# -->
+  <section class="servicos py-5" id="servicos">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">O que eu faço</h2>
+          </div>
+        </div>
+      </div>  
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="servico-item shadow-sm p-4 rounded bg-white">  
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+              <h3 class="fs-4 py-1">Desenvolvedor Web</h3>
+              <p class="text-muted">Sites responsivos, landing pages e interfaces de fácil utilização.</p>
+          </div>    
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="servico-item shadow-sm p-4 rounded bg-white">  
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-users"></i>
+            </div>
+              <h3 class="fs-4 py-1">UX</h3>
+              <p class="text-muted">Experiência do usuário. Sempre prevalecendo uma boa interface.</p>
+          </div>    
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mx-sm-auto">
+          <div class="servico-item shadow-sm p-4 rounded bg-white">  
+            <div class="icon my-3 text-primary fs-2">
+              <i class="fas fa-briefcase"></i>
+            </div>
+              <h3 class="fs-4 py-1">Business</h3>
+              <p class="text-muted">Projetos voltados a resultados, eleborando boas interfaces para negócios de sucesso.</p>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ############# FIM DE SERVIÇOS ############# -->
+
+<!-- ############# INÍCIO DE PORTIFÓLIO ############# -->
+  <section class="portifolio bg-white py-5" id="portifolio">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Últimos trabalhos</h2>
+          </div>
+        </div>
+      </div>  
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portifolio-item">
+            <img src="img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="portifolio item 1">
+            <h3 class="text-capitalize fs-5 my-2">warzone Tatical</h3>
+            <p class="mb-4"><a href="#" class="text-decoration-none text-primary">Demo</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portifolio-item">
+            <img src="img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portifolio item 1">
+            <h3 class="text-capitalize fs-5 my-2">Landing Page</h3>
+            <p class="mb-4"><a href="#" class="text-decoration-none text-primary">Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ############# FIM DE PORTIFÓLIO ############# -->
+
+<!-- ############# INÍCIO DE FREELANCE ############# -->
+  <section class="freelance py-5 home">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Tem algum projeto para fazer?</p>
+          <h2 class="fs-1 text-white mb-4">Estou disponível para Projetos Freelance</h2>
+          <a href="#contato" class="btn btn-outline-light p-2">Me contrate!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ############# FIM DE FREELANCE ############# -->
+
+<!-- ############# INÍCIO DE INDICACOES ############# -->
+  <section class="indicacoes py-5" id="indicacoes">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Indicações</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <!--CAROUSEL INÍCIO-->
+          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-primary" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner p-1">
+            <!-- INÍCIO INDICAÇÃO 1 -->
+              <div class="indic-item bg-white shadow-sm rounded p-4 carousel-item active mb-5">
+                <div class="indic-autor-info d-flex align-items-center">
+                  <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="autor 1">
+                    <div class="autor ms-3">
+                      <h3 class="fs-6 mb-1">Lucas Caetano</h3>
+                      <p class="text-muted m-0">Dev Front-end Senior - Empresa ELO</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Acompanho seus estudos na área desde o ínicio. Aprende rápido e tem muita
+                    facilidade para entender lógica de programação. 
+                  </p>
+                  <div class="avaliacoes text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+              </div>
+            <!-- FIM INDICAÇÃO 1 -->
+
+            <!-- INÍCIO INDICAÇÃO 2 -->
+              <div class="indic-item bg-white shadow-sm rounded p-4 carousel-item mb-5">
+                <div class="indic-autor-info d-flex align-items-center">
+                  <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="autor 1">
+                    <div class="autor ms-3">
+                      <h3 class="fs-6 mb-1">Robson Paixão</h3>
+                      <p class="text-muted m-0">Dev Front-end Senior - Empresa ELO</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Facilidade para aprendizado e empenho para aprender novas linguagens são seus 
+                    diferenciais.
+                  </p>
+                  <p class="text-muted mt-3"></p>
+                  <div class="avaliacoes text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+              </div>
+            <!-- FIM INDICAÇÃO 2 -->     
+          </div> 
+          <!-- FIM CAROUSEL-->             
+        </div>
+      </div>
+    </div> 
+  </section>
+<!-- ############# FIM DE INDICACOES ############# -->
+
+<!-- ############# INÍCIO DE CONTATO ############# -->
+<section class="contato py-5" id="contato">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">Contato</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="contato-item d-flex mb-3">
+          <div class="icon fs-4 text-primary">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Email</h3>
+            <p class="text-muted">leonardocae17@gmail.com</p>
+          </div>
+        </div>
+        <div class="contato-item d-flex mb-3">
+          <div class="icon fs-4 text-primary">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Telefone</h3>
+            <p class="text-muted">11 95439 0644</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contato-form">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" placeholder="Seu nome" class="form-control form-control-lg fs-6 border-0 shadow-sm mb-4">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" placeholder="Seu E-mail" class="form-control form-control-lg fs-6 border-0 shadow-sm mb-4">
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-lg-12">
+                <input type="text" placeholder="exemplo@email.com" class="form-control form-control-lg fs-6 border-0 shadow-sm mb-4">
+              </div> -->
+              <div class="col-lg-12">
+                <textarea rows="5" type="text" placeholder="Sua mensagem" class="form-control form-control-lg fs-6 border-0 shadow-sm mb-4"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary px-4">Enviar mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ############# FIM DE CONTATO ############# -->
+
+<footer class="footer border-top py-4">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="m-0 text-center text-muted">&copy; 2021 Caetano</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
